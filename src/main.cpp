@@ -14,6 +14,7 @@ void loop() {
     delay(1000);
     digitalWrite(output_rele, LOW);  
     digitalWrite(output_led, LOW); 
+    delay(1000);
 
   
   }//end while(1)
