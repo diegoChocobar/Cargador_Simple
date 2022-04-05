@@ -27,7 +27,7 @@ void SaludoInicial(){
     delay(100);
     lcd.setCursor(0, 0);
     lcd.print("***CDC Elctronics***");
-    lcd.print("*Cargador Bat- v1.0*");
+    lcd.print("*Cargador Bat- v1.1*");
     lcd.print("INICIO DE MEDICIONES");
     lcd.print("********************");
 

@@ -23,11 +23,9 @@ float iMinimo = 0.1;
 float vbat_max = 14.2;//14.4 valor tipico (estamos limitados por nuestra fuente de alimentacion)
 float vbat_float = 13.4;//13.5 valor tipico (estamos limitados por nuestra fuente de alimentacion)
 
-String mode = "bulk";
-//mode : "bulk"; modo de carga a corriente constante "iLimite"
-//mode : "absor" ; modo de carga a tension constante "vbat_max"
-//mode : "float"; modo de carga a tension constante "vbat_float"
 
+  float tension;
+  String mode="";
 
 ////////////////////////////////////////////////////////////////////////////////
 
