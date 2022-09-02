@@ -89,7 +89,6 @@ float LeerTension(){
   
   medida =  (medida / iteraciones) * (1/resolucion) * constante;
 
-  medida = medida + tension_diodo;
 
   return medida;
 
